@@ -92,3 +92,36 @@ $(function () {
 
 
 });
+
+// let womenImg = document.getElementsByClassName("top-image")
+
+// womenImg.addEventListener("click", function(event) {
+// 	console.log(event)
+// 	console.log("Print")
+// 	event.target.src = "images/Women.png"
+
+// })
+
+
+// let imgLogo = document.querySelector(".img-logo")
+let topHeader =document.querySelector(".top-header")
+
+let currentColor = topHeader.style.color
+currentColor = "white"
+
+topHeader.addEventListener("click", function(event) {
+
+
+
+	if (currentColor ==  "white") {
+		topHeader.style.color = "#fa9189"
+
+	} 
+	
+	else {
+		topHeader.style.color = "white"
+
+	}
+	
+})
+

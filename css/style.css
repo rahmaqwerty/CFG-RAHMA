@@ -41,6 +41,7 @@ body {
      font-family: 'Lato', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
+     background-color: #020001;;
 }
 
 a {
@@ -152,6 +153,10 @@ a,
 img {
      max-width: 100%;
      height: auto;
+}
+
+.top-image{
+     margin-bottom: 100px;
 }
 
  :focus {
@@ -453,6 +458,8 @@ button {
 
 .solutions .titlepage h2 {
      color: #fff;
+     margin-top: -200px;
+     margin-bottom: 50px;
 }
 
 .solutions .titlepage span {
@@ -475,6 +482,7 @@ button {
 
 .solutions_img figure img {
      width: 100%;
+     margin-top: -120px;
 }
 
 
@@ -541,6 +549,7 @@ button {
 .contac_detel {
      background: #fff;
      padding: 31px 0;
+     border-radius: 40px;
 }
 
 .contac_detel ul li img {
